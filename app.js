@@ -33,6 +33,4 @@ const getImages = async() => {
 
 }
 
-
-
 submitIcon.addEventListener('click', getImages);
