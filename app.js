@@ -36,7 +36,6 @@ const getImages = async() => {
   } catch (error){
     console.error(error); //or put console.log(error)
   }
-
 }
 
 submitIcon.addEventListener('click', getImages);
